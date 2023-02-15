@@ -1,0 +1,1 @@
+ docker build --build-arg MESSENGER_APP_SECRET=value --build-arg MESSENGER_VERIFY_TOKEN=value --build-arg MESSENGER_PAGE_ACCESS_TOKEN=value --build-arg OPENAI_API_KEY=value -t myimage .

@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Cat Gif and Application Link</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            transform: translateX(-50%) translateY(-50%);
+            background-size: cover;
+            transition: 1s opacity;
+        }
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+        .link-button {
+            display: inline-block;
+            padding: 14px 40px;
+            background: linear-gradient(to bottom, #FFC0CB 50%, #87CEFA 50%);
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<video autoplay muted loop>
+    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="center">
+    <img src="https://media.giphy.com/media/ieJnE4pDJFESZdpzHq/giphy.gif" width="960" class="giphy-embed" alt="Something" ><p></p>
+    <br><br>
+    <a href="https://m.me/bear.gpt" class="link-button" target=”_blank”>Talk to Me</a>
+</div>
+</body>
+</html>
